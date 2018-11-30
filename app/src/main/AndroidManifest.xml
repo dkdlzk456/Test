@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hkit.kr.test">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_action_name"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/Base.Theme.AppCompat">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ListActivity" />
+        <activity android:name=".Ani1Activity" />
+        <activity android:name=".Ani2Activity" />
+        <activity android:name=".Ani3Activity" />
+        <activity android:name=".CharInfoActivity"></activity>
+    </application>
+
+</manifest>
